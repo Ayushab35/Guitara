@@ -8,15 +8,27 @@
   /* added by me */
 
   .btn{
-    width: 150px !important;
-    position: relative;
-    left: 650px;
     font-size: large;
     padding: 4px 20px;
     border-radius: 20px;
     margin-bottom: 20px;
     background-color: #23D5AB;
     border: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .y{
+    width: 38px !important;
+    margin-right: 0;
+  }
+  .x{
+    margin-right: 10px !important;
+    margin-left: -15px;
+  }
+  .z{
+    margin-left: 15px;
   }
   /* HEADINGS */
   .navbar h3{
@@ -97,10 +109,9 @@
     font-weight: 400;
     text-decoration: none;
     transition: color 0.3s ease-out;
+    min-width: none !important;
   }
-  .x{
-    margin-right: 10px !important;
-  }
+  
   
   .nav-item a:hover {
     color: #3498db;
