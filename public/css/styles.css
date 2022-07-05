@@ -409,7 +409,7 @@
     /* flex-direction: column; */
     justify-content: center;
     /* position: absolute; */
-    background-color: #8c8d8d  ;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), #5c5c5c );
   }
   .ns a{
     text-decoration: none;
@@ -435,7 +435,18 @@
     padding: 16px;
     text-decoration: none;
   }
+  
+  .contains .nsul li a:hover{
+    color: #003146;
+  }
 
+  .contains .nsul li img{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    /* margin-top: 5px; */
+    /* padding-top: 5px; */
+  }
   /* excercises */
 
   .excer{
