@@ -1,3 +1,4 @@
+console.log("It is connected");
 $("#search-icon").click(function() {
     $(".nav").toggleClass("search");
     $(".nav").toggleClass("no-search");
@@ -9,4 +10,4 @@ $("#search-icon").click(function() {
      $(this).toggleClass("is-active");
   });
   
-  
+

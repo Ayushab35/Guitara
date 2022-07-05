@@ -23,3 +23,7 @@ app.listen(3000, function(){
 app.get("/about", function(req, res){
     res.render("about");
 })
+
+app.get("/exercises", function(req, res){
+    res.render("exercises");
+})
