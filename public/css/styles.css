@@ -447,6 +447,24 @@
     /* margin-top: 5px; */
     /* padding-top: 5px; */
   }
+
+  .row{
+    width: 40vh;
+
+  }
+
+  .col-6{
+    width: 50%;
+    width: 40vh;
+  }
+
+  .ima{
+    background-color: #23A6D5;
+  }
+
+  .tex{
+    background-color: #E73C7E;
+  }
   /* excercises */
 
   .excer{
