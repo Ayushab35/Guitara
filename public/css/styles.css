@@ -7,17 +7,18 @@
   
   /* added by me */
 
+  .x,.y,.z,.u,.v{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 
-  .y{
-    width: 38px !important;
-    margin-right: 0;
+  .w{
+    width: 20px;
   }
-  .x{
-    margin-right: 10px !important;
-    margin-left: -15px;
-  }
-  .z{
-    margin-left: 15px;
+
+  .head a{
+    text-decoration: none;
+    color: #000;
   }
   /* HEADINGS */
   .navbar h3{
@@ -276,7 +277,17 @@
   /* Media Queries */
   
     /* Mobile Devices - Phones/Tablets */
-  
+    @media only screen and (max-width: 800px){ 
+
+    }
+
+    @media only screen and (max-width: 650px){ 
+      .part1{
+        height: 60vh !important;
+      }
+      
+    }
+
   @media only screen and (max-width: 720px) { 
     .features {
       flex-direction: column;
@@ -388,6 +399,40 @@
     margin: 0 !important;
    }
 
+   /* Home below headline */
+
+   .part1{
+    width: 100% !important;
+    float: none !important;
+    height: 33vh !important;
+   }
+
+   .row{
+    height: 70vh !important;
+   }
+   .part1 img{
+    margin: 10% !important;
+   }
+
+   .part2{
+    width: 100% !important;
+    float: none !important;
+    height: 33vh !important;
+   }
+
+   .cont{
+    padding: 0px 5%;
+    margin-top: 40px !important
+   }
+
+   .cont h1{
+    font-size: 1.9rem !important;
+   }
+
+   .btns{
+    margin-left: 28% !important;
+   }
+
   }
 
   /* Home page */
@@ -464,23 +509,70 @@
     /* padding-top: 5px; */
   }
 
+  /* Home below headline */
   .row{
-    width: 40vh;
-
+    height: 60vh;
+    /* background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url('../images/home-page-fun.jpg'); */
   }
-
-  .col-6{
+  
+  .part1{
+    height: 60vh;
     width: 50%;
-    width: 40vh;
+    float: left;
   }
+  .part1 img{
+    width: 80%;
+    margin: 6%;
+  }
+.part2{
+  width: 50%;
+  float: left;
+  align-items: center;
+  padding-top: 10%;
+}
 
-  .ima{
-    background-color: #23A6D5;
-  }
+.cont{
+  justify-content: center;
+  align-items: center;
+  padding-right: 5%;
+  /* padding-left: 5%; */
+}
 
-  .tex{
-    background-color: #E73C7E;
-  }
+.cont p{
+  color: black;
+}
+
+.cont h1{
+  font-size: 40px;
+  color: #003146 !important;
+ }
+
+ .btns{
+    font-size: large;
+    padding: 4px 20px;
+    border-radius: 20px;
+    /* margin-bottom: 20px; */
+    background-color: #2391d5;
+    border: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-left: 35%;
+ }
+ .btns:hover{
+    background-color: #002947;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 2px solid rgb(75, 169, 213);
+    margin-top: 18px;
+ }
+
+ .cont a .btns{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+ }
+
   /* excercises */
 
   
