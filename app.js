@@ -43,3 +43,19 @@ app.get("/exercises/scales", function(req, res){
 app.get("/exercises/notes", function(req, res){
     res.render("notes");
 })
+
+app.get("/signup", function(req, res){
+    res.render("signup");
+})
+
+app.get("/login", function(req, res){
+    res.render("login");
+})
+
+app.get("/community", function(req, res){
+    res.render("community");
+})
+
+app.get("/tools", function(req, res){
+    res.render("tools");
+})

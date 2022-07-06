@@ -512,6 +512,7 @@
   /* Home below headline */
   .row{
     height: 60vh;
+    /* position: relative; */
     /* background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url('../images/home-page-fun.jpg'); */
   }
   
@@ -519,16 +520,21 @@
     height: 60vh;
     width: 50%;
     float: left;
+    /* position: absolute; */
   }
   .part1 img{
     width: 80%;
     margin: 6%;
+    border-radius: 5px;
+    /* position: absolute; */
+    /* padding: 5px; */
   }
 .part2{
   width: 50%;
   float: left;
   align-items: center;
   padding-top: 10%;
+  /* padding: 5px; */
 }
 
 .cont{
